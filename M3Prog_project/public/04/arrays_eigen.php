@@ -15,5 +15,28 @@ var_dump($games);
 echo"<br>";
 print_r($games);
 
+
+echo count($games). "<br>";
+array_push($games, "nog een game");
+print_r($games);
+
+
+echo"<br>";
+echo implode(' >> ', $games);
+echo"<br>";
+echo implode("  ",$games);
+echo"<br>";
+echo implode( "<br>", $games);
+
+
+print_r($games);
+
+echo"<br>";
+echo implode(' >> ', $games);
+echo"<br>";
+echo implode("  ",$games);
+echo"<br>";
+echo implode( "<br>", $games);
+
 ?>
 
