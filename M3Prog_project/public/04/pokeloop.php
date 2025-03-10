@@ -14,7 +14,7 @@
 for ($i = 0; $i < count($pokemon); $i++) {
     echo "<div class='pokemon-item'>";
     echo "<h1>" . $pokemon[$i] . "</h1>";
-    echo "<img src='" . $img[$i] . "'";
+    echo "<img src='" . $img[$i] . "'>";
 
 }
 
