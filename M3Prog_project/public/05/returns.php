@@ -8,6 +8,23 @@ function mijnFunction()
     return 1;
 }
 
-print $mijnFunctionResultaat;
+
+function returnVariable()
+{
+    $result =rand();
+    return $result;
+}
+
+
+echo returnVariable();
+echo "<br>";
+echo returnVariable();
+echo "<br>";
+echo returnVariable();
+echo "<br>";
+
+
+echo $mijnFunctionResultaat;
+echo "<br>";
 
 ?>
